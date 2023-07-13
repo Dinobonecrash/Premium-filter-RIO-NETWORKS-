@@ -45,7 +45,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
             InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs 💥', url='https://t.me/+HMo4S0heOUllMWVl'),
-            InlineKeyboardButton('🍿 Movie Group 📀', url='https://t.me/tamilmovies4Krio')
+            InlineKeyboardButton('🍿 Movie Group 📀', url='https://t.me/movies_anime_zone')
             ],[
             InlineKeyboardButton('🖥️ Source code 😍', callback_data='sources')
             ],[
@@ -93,7 +93,7 @@ async def start(client, message):
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
             InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs 💥', url='https://t.me/+HMo4S0heOUllMWVl'),
-            InlineKeyboardButton('🍿 Movie Group 📀', url='https://t.me/tamilmovies4Krio')
+            InlineKeyboardButton('🍿 Movie Group 📀', url='https://t.me/movies_anime_zone')
        
             ],[
             InlineKeyboardButton('🖥️ Source code 😍', callback_data='sources')
