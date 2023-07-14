@@ -440,8 +440,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs 💥', url='https://t.me/Teamrioupdates'),
-            InlineKeyboardButton('😍 Movie group 🔍', url='https://t.me/tamilmovies4Krio')
+            InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs 💥', url='https://t.me/Anime_Sensei_Network'),
+            InlineKeyboardButton('😍 Movie group 🔍', url='https://t.me/movies_anime_zone')
             ],[
             InlineKeyboardButton('😍 Source code 🖥️', callback_data='sources')
             ],[
@@ -457,7 +457,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
          )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🤖 Uᴩᴅᴀᴛᴇs 😜', url='https://t.me/Teamrioupdates'),
+            InlineKeyboardButton('🤖 Uᴩᴅᴀᴛᴇs 😜', url='https://t.me/Anime_Sensei_Network'),
             InlineKeyboardButton('♥️ Sʜᴀʀᴇ Mᴇ 💫', url=f"https://t.me/share/url?url=t.me/{temp.U_NAME}")
         ], [
             InlineKeyboardButton('🔭 Sᴛᴀᴛs 📊', callback_data='stats'),
@@ -578,7 +578,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "sources":
         buttons = [[
 
-            InlineKeyboardButton('😊 Source code 😊', url='https://github.com/1238muj/Premium-filter-RIO-NETWORKS-')
+            InlineKeyboardButton('😊 Source code 😊', url='@Zenitsu_AF')
         ], [
             InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='start')
         ]]
@@ -591,7 +591,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "source":
         buttons = [[
 
-            InlineKeyboardButton('😊 Source code 😊', url='https://github.com/1238muj/Premium-filter-RIO-NETWORKS-')
+            InlineKeyboardButton('😊 Source code 😊', url='@Zenitsu_AF')
         ], [
             InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about')
         ]]
