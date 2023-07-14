@@ -96,9 +96,9 @@ async def start(client, message):
             InlineKeyboardButton('🍿 Movie Group 📀', url='https://t.me/movies_anime_zone')
        
             ],[
-            InlineKeyboardButton('🖥️ Source code 😍', callback_data='5936007998')
+            InlineKeyboardButton('🖥️ Source code 😍', callback_data='sources')
             ],[
-            InlineKeyboardButton('💌 Aʙᴏᴜᴛ Aɴᴅ Iɴғᴏ 💌', callback_data= '5936007998')
+            InlineKeyboardButton('💌 Aʙᴏᴜᴛ Aɴᴅ Iɴғᴏ 💌', callback_data= 'about')
             ],[
             InlineKeyboardButton('❌ Cʟᴏꜱᴇ ❌', callback_data='close_data')
         ]]
